@@ -92,7 +92,10 @@ button:hover{
     padding: 8px;
     cursor: pointer;
 }
-
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
 .rightSection img {
     width: 80%;
     /* border: 2px solid red; */
