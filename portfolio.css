@@ -137,13 +137,14 @@ button:hover{
 
 .vertical-title {
     position: relative;
-    top: 60px;
+    top: 80px;
+    left:-10px ;
     width: 150px;
 }
 
 .vertical-desc {
     position: relative;
-    top: 70px;
+    top: 90px;
     width: 150px;
     color: gray;
     font-size: 10px;
