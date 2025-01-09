@@ -16,7 +16,7 @@ nav {
     align-items: center;
     height: 80px;
     background-color: rgb(4, 4, 101);
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .left {
@@ -173,6 +173,7 @@ footer {
     padding: 4px;
     padding: 22px 122px;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     /* border: 2px solid red; */
 }
 
@@ -200,12 +201,14 @@ footer .footer-rights {
     align-items: center;
     margin: 20px;
     padding: 20px;
+    /* flex-wrap: wrap; */
 }
 
 .email {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .email h1 {
