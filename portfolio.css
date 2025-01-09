@@ -79,13 +79,15 @@ main hr {
 .text-grey {
     color: gray;
 }
-button:hover{
-    background:#0c0d37;
-    
+
+button:hover {
+    background: #0c0d37;
+
 }
-.btn{
+
+.btn {
     color: #fff;
-    background:#1e2167;
+    background: #1e2167;
     border: 2px solid white;
     border-radius: 6px;
     font-size: 20px;
@@ -93,10 +95,12 @@ button:hover{
     padding: 8px;
     cursor: pointer;
 }
-.btn a{
+
+.btn a {
     text-decoration: none;
     color: #fff;
 }
+
 .rightSection img {
     width: 80%;
     /* border: 2px solid red; */
@@ -133,99 +137,114 @@ button:hover{
     margin: 0px 90px;
 }
 
+/* 
 .image-top {
     width: 35px;
     position: relative;
     top: -42px;
     left: -9px;
-}
+} */
 
 .vertical-title {
     position: relative;
-    top: 80px;
-    left:-10px ;
+    top: 90px;
+    left: -10px;
     width: 150px;
+    color: yellow;
 }
 
 .vertical-desc {
     position: relative;
     top: 90px;
     width: 150px;
-    color: gray;
-    font-size: 10px;
+    color: #a7a90c;
+    font-size: 12px;
 }
-footer{
+
+footer {
     background-color: #15192c;
     /* height: 250px; */
-    
+
 }
-.footer{
-    display:flex;
+
+.footer {
+    /* width: 90vw; */
+    display: flex;
     padding: 4px;
     padding: 22px 122px;
     justify-content: space-evenly;
     /* border: 2px solid red; */
 }
+
 .footer ul {
     list-style: none;
 }
-.footer div{
+
+.footer div {
     width: 103px;
-    margin:4px;
+    margin: 4px;
     padding: 4px;
 
 }
-footer .footer-rights{
+
+footer .footer-rights {
     /* margin-top: 20px; */
-    padding: 15px ;
+    padding: 15px;
     text-align: center;
     color: gray;
 }
-.enquiryForm{
+
+.enquiryForm {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 20px;
     padding: 20px;
 }
-.email{
+
+.email {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
-.email h1{
+
+.email h1 {
     position: relative;
-    top: -60px ;
-    left: 100px ;
+    top: -60px;
+    left: 100px;
     margin: 10px;
     color: red;
 }
-.mail-id{
+
+.mail-id {
     font-size: 20px;
     padding: 14px;
     border-radius: 15px;
     outline-color: #2af745;
     border-style: hidden;
-    margin-right: 10px ;
+    margin-right: 10px;
 
 }
-input{
+
+input {
     width: 25vw;
 }
-.subs-btn{
+
+.subs-btn {
     position: relative;
-    left: -339px ;
-    
+    left: -339px;
+
 }
+
 .subs-btn button {
     border: 2px solid rgb(43, 43, 88);
-    padding: 14px ;
-    width: 14vw ;
+    padding: 14px;
+    width: 14vw;
     font-family: cursive;
     font-size: x-large;
     border-radius: 15px;
     cursor: pointer;
     color: #fff;
-    background:#ee4b0a;
+    background: #ee4b0a;
     border-style: hidden;
 }
